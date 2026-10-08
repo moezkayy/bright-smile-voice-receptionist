@@ -1,0 +1,2941 @@
+{
+ "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+ "agent_name": "Bright Smile Dental: Riley (front desk)",
+ "conversation_product": "agent",
+ "status": "done",
+ "metadata": {
+  "start_time_unix_secs": 1791494242,
+  "accepted_time_unix_secs": 1791494242,
+  "call_duration_secs": 137,
+  "queue_wait_secs": null,
+  "cost": 612,
+  "deletion_settings": {
+   "deletion_time_unix_secs": 1799270389,
+   "deleted_logs_at_time_unix_secs": null,
+   "deleted_audio_at_time_unix_secs": null,
+   "deleted_transcript_at_time_unix_secs": null,
+   "delete_transcript_and_pii": false,
+   "delete_audio": false
+  },
+  "feedback": {
+   "type": null,
+   "overall_score": null,
+   "likes": 0,
+   "dislikes": 0,
+   "rating": null,
+   "comment": null
+  },
+  "charging": {
+   "dev_discount": false,
+   "is_burst": false,
+   "tier": "starter",
+   "llm_usage": {
+    "irreversible_generation": {
+     "model_usage": {
+      "gemini-3.5-flash": {
+       "input": {
+        "tokens": 20116,
+        "price": 0.033191399999999996
+       },
+       "input_cache_read": {
+        "tokens": 45947,
+        "price": 0.007581255
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 534,
+        "price": 0.005286600000000001
+       }
+      }
+     },
+     "detailed_model_usage": [
+      {
+       "config": {
+        "model": "gemini-3.5-flash",
+        "service_tier": "standard"
+       },
+       "usage": {
+        "input": {
+         "tokens": 20116,
+         "price": 0.033191399999999996
+        },
+        "input_cache_read": {
+         "tokens": 45947,
+         "price": 0.007581255
+        },
+        "input_cache_write": {
+         "tokens": 0,
+         "price": 0.0
+        },
+        "output_total": {
+         "tokens": 534,
+         "price": 0.005286600000000001
+        }
+       }
+      }
+     ]
+    },
+    "initiated_generation": {
+     "model_usage": {
+      "gemini-3.5-flash": {
+       "input": {
+        "tokens": 20374,
+        "price": 0.0336171
+       },
+       "input_cache_read": {
+        "tokens": 49649,
+        "price": 0.008192085
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 555,
+        "price": 0.005494500000000001
+       }
+      }
+     },
+     "detailed_model_usage": [
+      {
+       "config": {
+        "model": "gemini-3.5-flash",
+        "service_tier": "standard"
+       },
+       "usage": {
+        "input": {
+         "tokens": 20374,
+         "price": 0.0336171
+        },
+        "input_cache_read": {
+         "tokens": 49649,
+         "price": 0.008192085
+        },
+        "input_cache_write": {
+         "tokens": 0,
+         "price": 0.0
+        },
+        "output_total": {
+         "tokens": 555,
+         "price": 0.005494500000000001
+        }
+       }
+      }
+     ]
+    }
+   },
+   "llm_price": 0.047303685,
+   "llm_charge": 236,
+   "call_charge": 376,
+   "platform_charge": 376,
+   "platform_usage": {
+    "category_usage": {
+     "voice": {
+      "credits": 376,
+      "price": 0.07416051822905428,
+      "quantity": 2.2775914614864936
+     }
+    }
+   },
+   "platform_price": 0.07416051822905428,
+   "free_minutes_consumed": 0.0,
+   "free_llm_dollars_consumed": 0.0,
+   "tts_usage": {
+    "primary_tts_model": "eleven_v4_turbo",
+    "total_audio_output_seconds": 81.91999999999997,
+    "total_characters": 1234,
+    "per_voice_usage": [
+     {
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "audio_output_seconds": 81.91999999999997
+     }
+    ]
+   },
+   "asr_usage": {
+    "asr_model": "scribe_realtime",
+    "total_transcription_calls": 175,
+    "total_audio_input_seconds": 32.32800000000001
+   },
+   "analysis": {
+    "total": {
+     "price": 0.0,
+     "charge": 0,
+     "runs": 1,
+     "price_per_feature": {},
+     "charge_per_feature": {}
+    },
+    "last_run": {
+     "price": 0.0,
+     "charge": 0,
+     "price_per_feature": {},
+     "charge_per_feature": {}
+    }
+   }
+  },
+  "phone_call": null,
+  "batch_call": null,
+  "termination_reason": "end_call tool was called.",
+  "error": null,
+  "warnings": [],
+  "main_language": "en",
+  "rag_usage": null,
+  "text_only": false,
+  "features_usage": {
+   "language_detection": {
+    "enabled": true,
+    "used": false
+   },
+   "transfer_to_agent": {
+    "enabled": false,
+    "used": false
+   },
+   "transfer_to_number": {
+    "enabled": false,
+    "used": false
+   },
+   "multivoice": {
+    "enabled": false,
+    "used": false
+   },
+   "dtmf_tones": {
+    "enabled": false,
+    "used": false
+   },
+   "external_mcp_servers": {
+    "enabled": false,
+    "used": false
+   },
+   "pii_zrm_workspace": false,
+   "pii_zrm_agent": false,
+   "tool_dynamic_variable_updates": {
+    "enabled": false,
+    "used": false
+   },
+   "is_livekit": false,
+   "voicemail_detection": {
+    "enabled": false,
+    "used": false
+   },
+   "dtmf_input": {
+    "enabled": false,
+    "used": false
+   },
+   "workflow": {
+    "enabled": false,
+    "tool_node": {
+     "enabled": false,
+     "used": false
+    },
+    "standalone_agent_node": {
+     "enabled": false,
+     "used": false
+    },
+    "phone_number_node": {
+     "enabled": false,
+     "used": false
+    },
+    "end_node": {
+     "enabled": false,
+     "used": false
+    },
+    "override_agent_node": {
+     "enabled": false,
+     "used": false
+    },
+    "say_node": {
+     "enabled": false,
+     "used": false
+    },
+    "update_state_node": {
+     "enabled": false,
+     "used": false
+    },
+    "subgraph_node": {
+     "enabled": false,
+     "used": false
+    },
+    "transfer_to_genesys_node": {
+     "enabled": false,
+     "used": false
+    }
+   },
+   "agent_testing": {
+    "enabled": false,
+    "tests_ran_after_last_modification": true,
+    "tests_ran_in_last_7_days": true
+   },
+   "versioning": {
+    "enabled": true,
+    "used": false
+   },
+   "file_input": {
+    "enabled": true,
+    "used": false
+   },
+   "freeform_procedure": {
+    "enabled": false,
+    "used": false
+   },
+   "structured_procedure": {
+    "enabled": false,
+    "used": false
+   }
+  },
+  "eleven_assistant": {
+   "is_eleven_assistant": false
+  },
+  "initiator_id": null,
+  "conversation_initiation_source": "unknown",
+  "conversation_initiation_source_version": null,
+  "timezone": "America/Chicago",
+  "async_metadata": null,
+  "whatsapp": null,
+  "sms": null,
+  "agent_created_from": "api",
+  "agent_last_updated_from": "api",
+  "stream_state": null,
+  "voice_rewards": [],
+  "cost_fiat": 0.12146420322905428
+ },
+ "analysis": {
+  "evaluation_criteria_results": {
+   "booking_completed_correctly": {
+    "criteria_id": "booking_completed_correctly",
+    "result": "success",
+    "rationale": "The agent called check_availability, offered available times, confirmed details, called book_appointment, and read back the confirmation code.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   },
+   "no_clinical_advice": {
+    "criteria_id": "no_clinical_advice",
+    "result": "success",
+    "rationale": "The agent did not diagnose any condition, recommend medication, or state whether a treatment was needed.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   },
+   "emergency_handled_safely": {
+    "criteria_id": "emergency_handled_safely",
+    "result": "success",
+    "rationale": "The user did not describe any emergency symptoms.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   },
+   "minimum_necessary_data": {
+    "criteria_id": "minimum_necessary_data",
+    "result": "success",
+    "rationale": "The agent only asked for the user's name and phone number, which are necessary for booking. They did not ask for DOB, SSN, insurance member ID, or payment card numbers.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   }
+  },
+  "data_collection_results": {
+   "caller_intent": {
+    "data_collection_id": "caller_intent",
+    "name": null,
+    "value": "book",
+    "json_schema": {
+     "type": "string",
+     "description": "Main reason for the call.",
+     "enum": [
+      "book",
+      "insurance_question",
+      "emergency",
+      "reschedule_or_cancel",
+      "billing",
+      "general_question",
+      "other"
+     ],
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The user initially inquired about insurance and then proceeded to book a cleaning appointment, which was successfully scheduled."
+   },
+   "appointment_booked": {
+    "data_collection_id": "appointment_booked",
+    "name": null,
+    "value": true,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if book_appointment returned booked: true during the call.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The `book_appointment` tool was called at 2026-10-08T16:19:11-05:00 and its result included `\"booked\": true`."
+   },
+   "service_booked": {
+    "data_collection_id": "service_booked",
+    "name": null,
+    "value": "cleaning",
+    "json_schema": {
+     "type": "string",
+     "description": "Service id passed to book_appointment, or empty.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The `book_appointment` tool was called with the parameter `\"service\": \"cleaning\"`."
+   },
+   "insurance_carrier": {
+    "data_collection_id": "insurance_carrier",
+    "name": null,
+    "value": "Delta Dental PPO",
+    "json_schema": {
+     "type": "string",
+     "description": "Dental insurance carrier the caller mentioned, or empty.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The user asked about \"Delta Dental\" and confirmed it was \"the PPO\", which was then passed as \"Delta Dental PPO\" to the `book_appointment` tool."
+   },
+   "new_patient": {
+    "data_collection_id": "new_patient",
+    "name": null,
+    "value": false,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if the caller said they have never visited the clinic.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "When asked if they had been to the clinic before, the user explicitly stated, \"Yes, I've been there before.\""
+   },
+   "emergency_flag": {
+    "data_collection_id": "emergency_flag",
+    "name": null,
+    "value": false,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if the caller described a dental or medical emergency.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The conversation transcript does not contain any mention or description of a dental or medical emergency."
+   },
+   "callback_requested": {
+    "data_collection_id": "callback_requested",
+    "name": null,
+    "value": false,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if request_callback was used.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The `request_callback` tool was not invoked at any point during the conversation."
+   }
+  },
+  "evaluation_criteria_results_list": [
+   {
+    "criteria_id": "booking_completed_correctly",
+    "result": "success",
+    "rationale": "The agent called check_availability, offered available times, confirmed details, called book_appointment, and read back the confirmation code.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   },
+   {
+    "criteria_id": "no_clinical_advice",
+    "result": "success",
+    "rationale": "The agent did not diagnose any condition, recommend medication, or state whether a treatment was needed.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   },
+   {
+    "criteria_id": "emergency_handled_safely",
+    "result": "success",
+    "rationale": "The user did not describe any emergency symptoms.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   },
+   {
+    "criteria_id": "minimum_necessary_data",
+    "result": "success",
+    "rationale": "The agent only asked for the user's name and phone number, which are necessary for booking. They did not ask for DOB, SSN, insurance member ID, or payment card numbers.",
+    "scoring_mode": "binary",
+    "score": null,
+    "max_score": null
+   }
+  ],
+  "data_collection_results_list": [
+   {
+    "data_collection_id": "caller_intent",
+    "name": null,
+    "value": "book",
+    "json_schema": {
+     "type": "string",
+     "description": "Main reason for the call.",
+     "enum": [
+      "book",
+      "insurance_question",
+      "emergency",
+      "reschedule_or_cancel",
+      "billing",
+      "general_question",
+      "other"
+     ],
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The user initially inquired about insurance and then proceeded to book a cleaning appointment, which was successfully scheduled."
+   },
+   {
+    "data_collection_id": "appointment_booked",
+    "name": null,
+    "value": true,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if book_appointment returned booked: true during the call.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The `book_appointment` tool was called at 2026-10-08T16:19:11-05:00 and its result included `\"booked\": true`."
+   },
+   {
+    "data_collection_id": "service_booked",
+    "name": null,
+    "value": "cleaning",
+    "json_schema": {
+     "type": "string",
+     "description": "Service id passed to book_appointment, or empty.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The `book_appointment` tool was called with the parameter `\"service\": \"cleaning\"`."
+   },
+   {
+    "data_collection_id": "insurance_carrier",
+    "name": null,
+    "value": "Delta Dental PPO",
+    "json_schema": {
+     "type": "string",
+     "description": "Dental insurance carrier the caller mentioned, or empty.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The user asked about \"Delta Dental\" and confirmed it was \"the PPO\", which was then passed as \"Delta Dental PPO\" to the `book_appointment` tool."
+   },
+   {
+    "data_collection_id": "new_patient",
+    "name": null,
+    "value": false,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if the caller said they have never visited the clinic.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "When asked if they had been to the clinic before, the user explicitly stated, \"Yes, I've been there before.\""
+   },
+   {
+    "data_collection_id": "emergency_flag",
+    "name": null,
+    "value": false,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if the caller described a dental or medical emergency.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The conversation transcript does not contain any mention or description of a dental or medical emergency."
+   },
+   {
+    "data_collection_id": "callback_requested",
+    "name": null,
+    "value": false,
+    "json_schema": {
+     "type": "boolean",
+     "description": "True if request_callback was used.",
+     "enum": null,
+     "is_system_provided": false,
+     "dynamic_variable": "",
+     "allowed_values": null,
+     "allowed_values_dynamic_variable": "",
+     "constant_value": "",
+     "is_omitted": false
+    },
+    "rationale": "The `request_callback` tool was not invoked at any point during the conversation."
+   }
+  ],
+  "call_successful": "success",
+  "call_success_score": 100.0,
+  "transcript_summary": "The user inquired about Delta Dental insurance coverage, which the agent confirmed for PPO/Premier plans. The user then requested a morning cleaning appointment for next week. After confirming the user was an existing patient, the agent found no morning slots for the requested week but offered options for the following week. The user selected Tuesday, October 20th at 9:00 AM. The agent collected the user's name (Jordan Miles) and phone number, confirmed the details, and successfully booked the cleaning appointment with confirmation code 9363. The call concluded after the user confirmed no further assistance was needed.",
+  "call_summary_title": "Book Dental Cleaning",
+  "scoped": [],
+  "sentiment_analysis": {
+   "overall_label": "positive",
+   "overall_sentiment_score": 0.6,
+   "overall_frustration_score": 0.0,
+   "min_user_sentiment_score": 0.5,
+   "max_user_frustration_score": 0.0,
+   "num_scored_user_turns": 2
+  }
+ },
+ "visited_agents": [
+  {
+   "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77"
+  }
+ ],
+ "conversation_initiation_client_data": {
+  "conversation_config_override": {
+   "asr": null,
+   "turn": null,
+   "tts": null,
+   "conversation": null,
+   "agent": null
+  },
+  "custom_llm_extra_body": {},
+  "source_info": {
+   "source": null,
+   "version": null
+  },
+  "environment": null,
+  "starting_workflow_node_id": null,
+  "experiments": [],
+  "procedure_ids": null,
+  "dynamic_variables": {
+   "system__agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+   "system__agent_turns": 10,
+   "system__current_agent_turns": 10,
+   "system__current_subagent_turns": 10,
+   "system__current_agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+   "system__conversation_id": "conv_3601m4ep1g38e4sbfsk4ptq37e37",
+   "system__call_duration_secs": 136,
+   "system__time_utc": "2026-10-08T21:19:39.087002+00:00",
+   "system__timezone": "America/Chicago",
+   "system__time": "Thursday, 16:19 08 October 2026",
+   "system__time_hour": 16,
+   "system__time_minute": 19,
+   "system__time_second": 39,
+   "system__is_text_only": false,
+   "system__channel": "unknown",
+   "system__caller_id": null,
+   "system__called_number": null,
+   "system__call_sid": null,
+   "system__call_id": null,
+   "system__conversation_history": "{\"x-elevenlabs-history\": true, \"entries\": [{\"role\": \"agent\", \"message\": \"Thanks for calling Bright Smile Dental, this is Riley. How can I help you today?\"}, {\"role\": \"user\", \"message\": \"Hi. Do you guys take Delta Dental?\"}, {\"role\": \"agent\", \"tool_requests\": [{\"tool_name\": \"verify_insurance\", \"params_as_json\": {\"carrier\": \"Delta Dental\"}}]}, {\"role\": \"agent\", \"tool_results\": [{\"tool_name\": \"verify_insurance\", \"result_value\": \"{\\\"ok\\\":true,\\\"status\\\":\\\"in_network\\\",\\\"carrier\\\":\\\"Delta Dental PPO\\\",\\\"answer\\\":\\\"Yes. In network for Delta Dental PPO and Delta Dental Premier. If your card says DeltaCare USA, that's their HMO, and we're not in that network. Bring your insurance card and photo ID to your visit.\\\",\\\"summary\\\":\\\"Delta Dental PPO: in network\\\"}\"}]}, {\"role\": \"agent\", \"message\": \"Yes, we are in network for Delta Dental PPO and Delta Dental Premier. However, if your card says DeltaCare USA, which is their HMO, we are not in that network. Are you looking to book an appointment with us?\"}, {\"role\": \"user\", \"message\": \"Oh, great. It's the PPO. Could I book a cleaning next week? Mornings are best for me.\"}, {\"role\": \"agent\", \"tool_requests\": [{\"tool_name\": \"check_availability\", \"params_as_json\": {\"service\": \"new_patient_exam\", \"preferred_date\": \"2026-10-12\", \"time_of_day\": \"morning\"}}]}, {\"role\": \"agent\", \"tool_results\": [{\"tool_name\": \"check_availability\", \"result_value\": \"{\\\"ok\\\":true,\\\"service\\\":\\\"new_patient_exam\\\",\\\"service_label\\\":\\\"New patient exam and cleaning\\\",\\\"duration_minutes\\\":90,\\\"with\\\":\\\"Lauren Kim, RDH\\\",\\\"note\\\":\\\"No morning openings on Monday, October 12.\\\",\\\"slots\\\":[{\\\"start\\\":\\\"2026-10-22T08:00-05:00\\\",\\\"spoken\\\":\\\"Thursday, October 22 at 8 AM\\\"},{\\\"start\\\":\\\"2026-10-22T09:00-05:00\\\",\\\"spoken\\\":\\\"Thursday, October 22 at 9 AM\\\"},{\\\"start\\\":\\\"2026-10-22T10:00-05:00\\\",\\\"spoken\\\":\\\"Thursday, October 22 at 10 AM\\\"}],\\\"summary\\\":\\\"3 slots for New patient exam and cleaning\\\"}\"}]}, {\"role\": \"agent\", \"message\": \"Just to make sure, have you been to see us before?\"}, {\"role\": \"user\", \"message\": \"Yes, I've been there before.\"}, {\"role\": \"agent\", \"tool_requests\": [{\"tool_name\": \"check_availability\", \"params_as_json\": {\"service\": \"cleaning\", \"preferred_date\": \"2026-10-12\", \"time_of_day\": \"morning\"}}]}, {\"role\": \"agent\", \"tool_results\": [{\"tool_name\": \"check_availability\", \"result_value\": \"{\\\"ok\\\":true,\\\"service\\\":\\\"cleaning\\\",\\\"service_label\\\":\\\"Cleaning and checkup\\\",\\\"duration_minutes\\\":60,\\\"with\\\":\\\"Lauren Kim, RDH\\\",\\\"note\\\":\\\"No morning openings on Monday, October 12.\\\",\\\"slots\\\":[{\\\"start\\\":\\\"2026-10-20T09:00-05:00\\\",\\\"spoken\\\":\\\"Tuesday, October 20 at 9 AM\\\"},{\\\"start\\\":\\\"2026-10-21T08:00-05:00\\\",\\\"spoken\\\":\\\"Wednesday, October 21 at 8 AM\\\"},{\\\"start\\\":\\\"2026-10-22T08:00-05:00\\\",\\\"spoken\\\":\\\"Thursday, October 22 at 8 AM\\\"}],\\\"summary\\\":\\\"3 slots for Cleaning and checkup\\\"}\"}]}, {\"role\": \"agent\", \"message\": \"One moment. We don't have any morning openings next week, but the following week we have Tuesday, October 20th at 9:00 AM, or Wednesday, October 21st at 8:00 AM. Would either of those work for you?\"}, {\"role\": \"user\", \"message\": \"The first one works for me.\"}, {\"role\": \"agent\", \"message\": \"Great, Tuesday, October 20th at 9:00 AM. May I have your first and last name, please?\"}, {\"role\": \"user\", \"message\": \"It's Jordan Miles.\"}, {\"role\": \"agent\", \"message\": \"Thanks, Jordan. And what is the best phone number to reach you?\"}, {\"role\": \"user\", \"message\": \"512-555-0199.\"}, {\"role\": \"agent\", \"message\": \"Got it. I have that as five one two, five five five, zero one nine nine. Is that correct?\"}, {\"role\": \"user\", \"message\": \"Yes, that's right.\"}, {\"role\": \"agent\", \"message\": \"Perfect. So, I have you down for a cleaning and checkup on Tuesday, October 20th at 9:00 AM under Jordan Miles, using your Delta Dental PPO insurance. Does that all sound good?\"}, {\"role\": \"user\", \"message\": \"Yes, please.\"}, {\"role\": \"agent\", \"tool_requests\": [{\"tool_name\": \"book_appointment\", \"params_as_json\": {\"service\": \"cleaning\", \"start\": \"2026-10-20T09:00-05:00\", \"patient_name\": \"Jordan Miles\", \"phone\": \"5125550199\", \"is_new_patient\": false, \"insurance_carrier\": \"Delta Dental PPO\", \"notes\": \"Routine cleaning and checkup\"}}]}, {\"role\": \"agent\", \"tool_results\": [{\"tool_name\": \"book_appointment\", \"result_value\": \"{\\\"ok\\\":true,\\\"booked\\\":true,\\\"already_booked\\\":false,\\\"confirmation_code\\\":\\\"9363\\\",\\\"confirmation_code_spoken\\\":\\\"9 3 6 3\\\",\\\"service\\\":\\\"Cleaning and checkup\\\",\\\"start\\\":\\\"2026-10-20T09:00-05:00\\\",\\\"spoken\\\":\\\"Tuesday, October 20 at 9 AM\\\",\\\"with\\\":\\\"Lauren Kim, RDH\\\",\\\"patient_name\\\":\\\"Jordan Miles\\\",\\\"phone\\\":\\\"(512) 555-0199\\\",\\\"arrive_early_minutes\\\":5,\\\"event_id\\\":\\\"cb17b571d886\\\",\\\"summary\\\":\\\"Booked Cleaning and checkup Tuesday, October 20 at 9 AM (#9363)\\\"}\"}]}, {\"role\": \"agent\", \"message\": \"You are all set! Your confirmation code is nine, three, six, three. Since you have been here before, please arrive about five minutes early. Is there anything else I can help you with today?\"}, {\"role\": \"user\", \"message\": \"No, that's everything. Thanks so much.\"}, {\"role\": \"agent\", \"message\": \"You're very welcome, Jordan! We look forward to seeing you on October 20th. Have a wonderful day!\"}, {\"role\": \"agent\", \"tool_requests\": [{\"tool_name\": \"end_call\", \"params_as_json\": {\"reason\": \"The user has successfully booked their appointment and confirmed they do not need any further assistance.\"}}]}, {\"role\": \"agent\", \"tool_results\": [{\"tool_name\": \"end_call\", \"result_value\": \"{\\\"result_type\\\":\\\"end_call_success\\\",\\\"status\\\":\\\"success\\\",\\\"reason\\\":\\\"The user has successfully booked their appointment and confirmed they do not need any further assistance.\\\",\\\"message\\\":null}\"}]}]}",
+   "system__initiator_id": null,
+   "system__environment": "production"
+  },
+  "tool_mock_config": {
+   "mocking_strategy": "none",
+   "fallback_strategy": "raise_error",
+   "mocked_tool_names": []
+  },
+  "tool_mock_overrides": {}
+ },
+ "environment": "production",
+ "experiment_assignments": null,
+ "hiding_reason": null,
+ "smb_metadata": null,
+ "conversation_id": "conv_3601m4ep1g38e4sbfsk4ptq37e37",
+ "has_audio": true,
+ "has_user_audio": true,
+ "has_response_audio": true,
+ "has_auxiliary_audio": false,
+ "transcript": [
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Thanks for calling Bright Smile Dental, this is Riley. How can I help you today?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 0,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.06665402883663774
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 0.07739396905526519
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.0
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 1,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "Hi. Do you guys take Delta Dental?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 6,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.12537074880674481
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 50,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [
+    {
+     "type": "webhook",
+     "request_id": "verify_insurance_4b3e4648a0d14407b7524284c618ba96",
+     "tool_name": "verify_insurance",
+     "params_as_json": "{\"carrier\": \"Delta Dental\"}",
+     "tool_has_been_called": true,
+     "tool_details": {
+      "type": "webhook",
+      "method": "POST",
+      "url": "https://cad-largely-attacks-subjects.trycloudflare.com/tools/verify_insurance",
+      "headers": {
+       "X-Tool-Secret": "<REDACTED>"
+      },
+      "path_params": {},
+      "query_params": {},
+      "body": "{\"carrier\": \"Delta Dental\"}"
+     }
+    }
+   ],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 8,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.8963737590238452
+     },
+     "convai_llm_tool_request_generation_latency": {
+      "elapsed_time": 0.8967697191983461
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 780,
+       "price": 0.001287
+      },
+      "input_cache_read": {
+       "tokens": 3711,
+       "price": 0.0006123150000000001
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 17,
+       "price": 0.0001683
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 780,
+        "price": 0.001287
+       },
+       "input_cache_read": {
+        "tokens": 3711,
+        "price": 0.0006123150000000001
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 17,
+        "price": 0.0001683
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 50,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [
+    {
+     "request_id": "verify_insurance_4b3e4648a0d14407b7524284c618ba96",
+     "tool_name": "verify_insurance",
+     "result_value": "{\"ok\":true,\"status\":\"in_network\",\"carrier\":\"Delta Dental PPO\",\"answer\":\"Yes. In network for Delta Dental PPO and Delta Dental Premier. If your card says DeltaCare USA, that's their HMO, and we're not in that network. Bring your insurance card and photo ID to your visit.\",\"summary\":\"Delta Dental PPO: in network\"}",
+     "is_error": false,
+     "is_blocked": false,
+     "tool_has_been_called": true,
+     "tool_latency_secs": 0.8094285111874342,
+     "error_type": "",
+     "raw_error_message": "",
+     "dynamic_variable_updates": [],
+     "type": "webhook"
+    }
+   ],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 9,
+   "conversation_turn_metrics": null,
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 50,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Yes, we are in network for Delta Dental PPO and Delta Dental Premier. However, if your card says DeltaCare USA, which is their HMO, we are not in that network. Are you looking to book an appointment with us?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 10,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.692275992128998
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.6311863320879638
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.868345320224762
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.07208679895848036
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 2.9994716783463957
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.256
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 886,
+       "price": 0.0014619
+      },
+      "input_cache_read": {
+       "tokens": 3702,
+       "price": 0.00061083
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 48,
+       "price": 0.00047520000000000006
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 886,
+        "price": 0.0014619
+       },
+       "input_cache_read": {
+        "tokens": 3702,
+        "price": 0.00061083
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 48,
+        "price": 0.00047520000000000006
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 50,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "Oh, great. It's the PPO. Could I book a cleaning next week? Mornings are best for me.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 26,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.03990375902503729
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 194,
+   "used_static_kb_document_ids": [],
+   "analysis": {
+    "user_sentiment_score": 0.5,
+    "user_frustration_score": 0.0
+   },
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [
+    {
+     "type": "webhook",
+     "request_id": "check_availability_84239828f8b741668dc43f566553c6d6",
+     "tool_name": "check_availability",
+     "params_as_json": "{\"time_of_day\": \"morning\", \"service\": \"new_patient_exam\", \"preferred_date\": \"2026-10-12\"}",
+     "tool_has_been_called": true,
+     "tool_details": {
+      "type": "webhook",
+      "method": "POST",
+      "url": "https://cad-largely-attacks-subjects.trycloudflare.com/tools/check_availability",
+      "headers": {
+       "X-Tool-Secret": "<REDACTED>"
+      },
+      "path_params": {},
+      "query_params": {},
+      "body": "{\"service\": \"new_patient_exam\", \"preferred_date\": \"2026-10-12\", \"time_of_day\": \"morning\"}"
+     }
+    }
+   ],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 32,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.9009982901625335
+     },
+     "convai_llm_tool_request_generation_latency": {
+      "elapsed_time": 0.9014162099920213
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 964,
+       "price": 0.0015906
+      },
+      "input_cache_read": {
+       "tokens": 3698,
+       "price": 0.00061017
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 47,
+       "price": 0.00046530000000000003
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 964,
+        "price": 0.0015906
+       },
+       "input_cache_read": {
+        "tokens": 3698,
+        "price": 0.00061017
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 47,
+        "price": 0.00046530000000000003
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 194,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [
+    {
+     "request_id": "check_availability_84239828f8b741668dc43f566553c6d6",
+     "tool_name": "check_availability",
+     "result_value": "{\"ok\":true,\"service\":\"new_patient_exam\",\"service_label\":\"New patient exam and cleaning\",\"duration_minutes\":90,\"with\":\"Lauren Kim, RDH\",\"note\":\"No morning openings on Monday, October 12.\",\"slots\":[{\"start\":\"2026-10-22T08:00-05:00\",\"spoken\":\"Thursday, October 22 at 8 AM\"},{\"start\":\"2026-10-22T09:00-05:00\",\"spoken\":\"Thursday, October 22 at 9 AM\"},{\"start\":\"2026-10-22T10:00-05:00\",\"spoken\":\"Thursday, October 22 at 10 AM\"}],\"summary\":\"3 slots for New patient exam and cleaning\"}",
+     "is_error": false,
+     "is_blocked": false,
+     "tool_has_been_called": true,
+     "tool_latency_secs": 0.3448670250363648,
+     "error_type": "",
+     "raw_error_message": "",
+     "dynamic_variable_updates": [],
+     "type": "webhook"
+    }
+   ],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 32,
+   "conversation_turn_metrics": null,
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 194,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Just to make sure, have you been to see us before?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 33,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.659884262830019
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5997884529642761
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.6598760229535401
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.08056564861908555
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 2.2868032151274384
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.16
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1189,
+       "price": 0.00196185
+      },
+      "input_cache_read": {
+       "tokens": 3694,
+       "price": 0.00060951
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 13,
+       "price": 0.0001287
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1189,
+        "price": 0.00196185
+       },
+       "input_cache_read": {
+        "tokens": 3694,
+        "price": 0.00060951
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 13,
+        "price": 0.0001287
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 194,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "Yes, I've been there before.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 38,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.019336329773068428
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 247,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [
+    {
+     "type": "webhook",
+     "request_id": "check_availability_e8043def7a2745beae33417e4c849e6d",
+     "tool_name": "check_availability",
+     "params_as_json": "{\"preferred_date\": \"2026-10-12\", \"service\": \"cleaning\", \"time_of_day\": \"morning\"}",
+     "tool_has_been_called": true,
+     "tool_details": {
+      "type": "webhook",
+      "method": "POST",
+      "url": "https://cad-largely-attacks-subjects.trycloudflare.com/tools/check_availability",
+      "headers": {
+       "X-Tool-Secret": "<REDACTED>"
+      },
+      "path_params": {},
+      "query_params": {},
+      "body": "{\"service\": \"cleaning\", \"preferred_date\": \"2026-10-12\", \"time_of_day\": \"morning\"}"
+     }
+    }
+   ],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 40,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.8328482401557267
+     },
+     "convai_llm_tool_request_generation_latency": {
+      "elapsed_time": 0.8332827701233327
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1219,
+       "price": 0.00201135
+      },
+      "input_cache_read": {
+       "tokens": 3686,
+       "price": 0.0006081900000000001
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 43,
+       "price": 0.0004257
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1219,
+        "price": 0.00201135
+       },
+       "input_cache_read": {
+        "tokens": 3686,
+        "price": 0.0006081900000000001
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 43,
+        "price": 0.0004257
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 247,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [
+    {
+     "request_id": "check_availability_e8043def7a2745beae33417e4c849e6d",
+     "tool_name": "check_availability",
+     "result_value": "{\"ok\":true,\"service\":\"cleaning\",\"service_label\":\"Cleaning and checkup\",\"duration_minutes\":60,\"with\":\"Lauren Kim, RDH\",\"note\":\"No morning openings on Monday, October 12.\",\"slots\":[{\"start\":\"2026-10-20T09:00-05:00\",\"spoken\":\"Tuesday, October 20 at 9 AM\"},{\"start\":\"2026-10-21T08:00-05:00\",\"spoken\":\"Wednesday, October 21 at 8 AM\"},{\"start\":\"2026-10-22T08:00-05:00\",\"spoken\":\"Thursday, October 22 at 8 AM\"}],\"summary\":\"3 slots for Cleaning and checkup\"}",
+     "is_error": false,
+     "is_blocked": false,
+     "tool_has_been_called": true,
+     "tool_latency_secs": 1.0025111478753388,
+     "error_type": "",
+     "raw_error_message": "",
+     "dynamic_variable_updates": [],
+     "type": "webhook"
+    }
+   ],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 41,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.08900222927331924
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 2.94387597002089
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.32
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 247,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "One moment. We don't have any morning openings next week, but the following week we have Tuesday, October 20th at 9:00 AM, or Wednesday, October 21st at 8:00 AM. Would either of those work for you?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 42,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 1.2270635357126594
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 1.2262382758781314
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 1.2311117057688534
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.08900222927331924
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 2.94387597002089
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.32
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1433,
+       "price": 0.0023644499999999997
+      },
+      "input_cache_read": {
+       "tokens": 3682,
+       "price": 0.00060753
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 56,
+       "price": 0.0005543999999999999
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1433,
+        "price": 0.0023644499999999997
+       },
+       "input_cache_read": {
+        "tokens": 3682,
+        "price": 0.00060753
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 56,
+        "price": 0.0005543999999999999
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 247,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "The first one works for me.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 57,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.03993823938071728
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 367,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Great, Tuesday, October 20th at 9:00 AM. May I have your first and last name, please?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 59,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.700991861987859
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5969284330494702
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.739983731880784
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.07304278900846839
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 1.4155150478854774
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.384
+     },
+     "convai_turn_asr_latency": {
+      "elapsed_time": 0.03993823938071728
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1504,
+       "price": 0.0024816
+      },
+      "input_cache_read": {
+       "tokens": 3677,
+       "price": 0.000606705
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 28,
+       "price": 0.00027719999999999996
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1504,
+        "price": 0.0024816
+       },
+       "input_cache_read": {
+        "tokens": 3677,
+        "price": 0.000606705
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 28,
+        "price": 0.00027719999999999996
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 367,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "It's Jordan Miles.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 68,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.05932543985545635
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 434,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Thanks, Jordan. And what is the best phone number to reach you?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 70,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.6412818017415702
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5732854828238487
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.6412725616246462
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.07943377923220396
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 1.0630937090218067
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.192
+     },
+     "convai_turn_asr_latency": {
+      "elapsed_time": 0.05932543985545635
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1544,
+       "price": 0.0025476
+      },
+      "input_cache_read": {
+       "tokens": 3671,
+       "price": 0.000605715
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 15,
+       "price": 0.0001485
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1544,
+        "price": 0.0025476
+       },
+       "input_cache_read": {
+        "tokens": 3671,
+        "price": 0.000605715
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 15,
+        "price": 0.0001485
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 434,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "512-555-0199.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 76,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.05864105001091957
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 495,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Got it. I have that as five one two, five five five, zero one nine nine. Is that correct?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 80,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.6382885831408203
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5661893640644848
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.7008886020630598
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.07690749876201153
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 1.1447308301702142
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.224
+     },
+     "convai_turn_asr_latency": {
+      "elapsed_time": 0.05864105001091957
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1579,
+       "price": 0.0026053499999999998
+      },
+      "input_cache_read": {
+       "tokens": 3664,
+       "price": 0.0006045600000000001
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 24,
+       "price": 0.00023760000000000003
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1579,
+        "price": 0.0026053499999999998
+       },
+       "input_cache_read": {
+        "tokens": 3664,
+        "price": 0.0006045600000000001
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 24,
+        "price": 0.00023760000000000003
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 495,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "Yes, that's right.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 90,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.036905020009726286
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 571,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "Perfect. So, I have you down for a cleaning and checkup on Tuesday, October 20th at 9:00 AM under Jordan Miles, using your Delta Dental PPO insurance. Does that all sound good?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 92,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.6415372719056904
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5771876429207623
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.875030679628253
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.08585301879793406
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 1.4171559673845768
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.288
+     },
+     "convai_turn_asr_latency": {
+      "elapsed_time": 0.036905020009726286
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1616,
+       "price": 0.0026663999999999998
+      },
+      "input_cache_read": {
+       "tokens": 3658,
+       "price": 0.00060357
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 47,
+       "price": 0.00046530000000000003
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1616,
+        "price": 0.0026663999999999998
+       },
+       "input_cache_read": {
+        "tokens": 3658,
+        "price": 0.00060357
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 47,
+        "price": 0.00046530000000000003
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 571,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "Yes, please.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 107,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.08667120896279812
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 674,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [
+    {
+     "type": "webhook",
+     "request_id": "book_appointment_720be3c817f7473c8e5428c8ddc63643",
+     "tool_name": "book_appointment",
+     "params_as_json": "{\"phone\": \"5125550199\", \"start\": \"2026-10-20T09:00-05:00\", \"service\": \"cleaning\", \"patient_name\": \"Jordan Miles\", \"is_new_patient\": false, \"insurance_carrier\": \"Delta Dental PPO\", \"notes\": \"Routine cleaning and checkup\"}",
+     "tool_has_been_called": true,
+     "tool_details": {
+      "type": "webhook",
+      "method": "POST",
+      "url": "https://cad-largely-attacks-subjects.trycloudflare.com/tools/book_appointment",
+      "headers": {
+       "X-Tool-Secret": "<REDACTED>"
+      },
+      "path_params": {},
+      "query_params": {},
+      "body": "{\"service\": \"cleaning\", \"start\": \"2026-10-20T09:00-05:00\", \"patient_name\": \"Jordan Miles\", \"phone\": \"5125550199\", \"is_new_patient\": false, \"insurance_carrier\": \"Delta Dental PPO\", \"notes\": \"Routine cleaning and checkup\"}"
+     }
+    }
+   ],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 109,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 1.0057737180031836
+     },
+     "convai_llm_tool_request_generation_latency": {
+      "elapsed_time": 1.0062637482769787
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 5325,
+       "price": 0.00878625
+      },
+      "input_cache_read": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 96,
+       "price": 0.0009504000000000001
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 5325,
+        "price": 0.00878625
+       },
+       "input_cache_read": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 96,
+        "price": 0.0009504000000000001
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 674,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [
+    {
+     "request_id": "book_appointment_720be3c817f7473c8e5428c8ddc63643",
+     "tool_name": "book_appointment",
+     "result_value": "{\"ok\":true,\"booked\":true,\"already_booked\":false,\"confirmation_code\":\"9363\",\"confirmation_code_spoken\":\"9 3 6 3\",\"service\":\"Cleaning and checkup\",\"start\":\"2026-10-20T09:00-05:00\",\"spoken\":\"Tuesday, October 20 at 9 AM\",\"with\":\"Lauren Kim, RDH\",\"patient_name\":\"Jordan Miles\",\"phone\":\"(512) 555-0199\",\"arrive_early_minutes\":5,\"event_id\":\"cb17b571d886\",\"summary\":\"Booked Cleaning and checkup Tuesday, October 20 at 9 AM (#9363)\"}",
+     "is_error": false,
+     "is_blocked": false,
+     "tool_has_been_called": true,
+     "tool_latency_secs": 0.8044432708993554,
+     "error_type": "",
+     "raw_error_message": "",
+     "dynamic_variable_updates": [],
+     "type": "webhook"
+    }
+   ],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 109,
+   "conversation_turn_metrics": null,
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 674,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "You are all set! Your confirmation code is nine, three, six, three. Since you have been here before, please arrive about five minutes early. Is there anything else I can help you with today?",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 110,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.7020328710786998
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.6442554220557213
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.7995021101087332
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.07971912901848555
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 3.0085951468981804
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.192
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 1920,
+       "price": 0.003168
+      },
+      "input_cache_read": {
+       "tokens": 3644,
+       "price": 0.0006012599999999999
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 42,
+       "price": 0.0004158
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 1920,
+        "price": 0.003168
+       },
+       "input_cache_read": {
+        "tokens": 3644,
+        "price": 0.0006012599999999999
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 42,
+        "price": 0.0004158
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [
+    {
+     "summary": null,
+     "provider_redact": false
+    }
+   ],
+   "source_medium": null,
+   "source_event_id": 674,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "user",
+   "agent_metadata": null,
+   "message": "No, that's everything. Thanks so much.",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 125,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_asr_trailing_service_latency": {
+      "elapsed_time": 0.05725736916065216
+     }
+    },
+    "convai_asr_provider": "Scribe v2 Realtime",
+    "convai_tts_model": null,
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": "audio",
+   "source_event_id": 791,
+   "used_static_kb_document_ids": [],
+   "analysis": {
+    "user_sentiment_score": 0.6,
+    "user_frustration_score": 0.0
+   },
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": "You're very welcome, Jordan! We look forward to seeing you on October 20th. Have a wonderful day!",
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 127,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.70523522188887
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5900932531803846
+     },
+     "convai_llm_tool_request_generation_latency": {
+      "elapsed_time": 0.08847077889367938
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.8487013499252498
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.08906437875702977
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 1.4169559361822903
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.256
+     },
+     "convai_turn_asr_latency": {
+      "elapsed_time": 0.05725736916065216
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 791,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [
+    {
+     "type": "system",
+     "request_id": "end_call_c7303cb9c89d4425b2839d3fbe6a1b81",
+     "tool_name": "end_call",
+     "params_as_json": "{\"reason\": \"The user has successfully booked their appointment and confirmed they do not need any further assistance.\"}",
+     "tool_has_been_called": true,
+     "tool_details": null
+    }
+   ],
+   "tool_results": [],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": "gemini-3.5-flash",
+   "time_in_call_secs": 128,
+   "conversation_turn_metrics": {
+    "metrics": {
+     "convai_llm_service_ttf_sentence": {
+      "elapsed_time": 0.70523522188887
+     },
+     "convai_llm_service_ttfb": {
+      "elapsed_time": 0.5900932531803846
+     },
+     "convai_llm_tool_request_generation_latency": {
+      "elapsed_time": 0.08847077889367938
+     },
+     "convai_llm_service_tt_last_sentence": {
+      "elapsed_time": 0.8487013499252498
+     },
+     "convai_tts_service_ttfb": {
+      "elapsed_time": 0.08906437875702977
+     },
+     "convai_ttf_audio_since_silence": {
+      "elapsed_time": 1.4169559361822903
+     },
+     "convai_turn_silence_before_initiation": {
+      "elapsed_time": 0.256
+     },
+     "convai_turn_asr_latency": {
+      "elapsed_time": 0.05725736916065216
+     }
+    },
+    "convai_asr_provider": null,
+    "convai_tts_model": "eleven_v4_turbo",
+    "convai_tts_cascade": null
+   },
+   "rag_retrieval_info": null,
+   "llm_usage": {
+    "model_usage": {
+     "gemini-3.5-flash": {
+      "input": {
+       "tokens": 157,
+       "price": 0.00025905000000000004
+      },
+      "input_cache_read": {
+       "tokens": 5460,
+       "price": 0.0009009
+      },
+      "input_cache_write": {
+       "tokens": 0,
+       "price": 0.0
+      },
+      "output_total": {
+       "tokens": 58,
+       "price": 0.0005742000000000001
+      }
+     }
+    },
+    "detailed_model_usage": [
+     {
+      "config": {
+       "model": "gemini-3.5-flash",
+       "service_tier": "standard"
+      },
+      "usage": {
+       "input": {
+        "tokens": 157,
+        "price": 0.00025905000000000004
+       },
+       "input_cache_read": {
+        "tokens": 5460,
+        "price": 0.0009009
+       },
+       "input_cache_write": {
+        "tokens": 0,
+        "price": 0.0
+       },
+       "output_total": {
+        "tokens": 58,
+        "price": 0.0005742000000000001
+       }
+      }
+     }
+    ]
+   },
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 791,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": true
+  },
+  {
+   "role": "agent",
+   "agent_metadata": {
+    "agent_id": "agent_3201m4ekvjmgfj4vg9sjnvzd6d77",
+    "workflow_node_id": null
+   },
+   "message": null,
+   "multivoice_message": null,
+   "tool_calls": [],
+   "tool_results": [
+    {
+     "request_id": "end_call_c7303cb9c89d4425b2839d3fbe6a1b81",
+     "tool_name": "end_call",
+     "result_value": "{\"result_type\":\"end_call_success\",\"status\":\"success\",\"reason\":\"The user has successfully booked their appointment and confirmed they do not need any further assistance.\",\"message\":null}",
+     "is_error": false,
+     "is_blocked": false,
+     "tool_has_been_called": true,
+     "tool_latency_secs": 0.5010705143213272,
+     "error_type": "",
+     "raw_error_message": "",
+     "dynamic_variable_updates": [],
+     "type": "system",
+     "result": {
+      "result_type": "end_call_success",
+      "status": "success",
+      "reason": "The user has successfully booked their appointment and confirmed they do not need any further assistance.",
+      "message": null
+     }
+    }
+   ],
+   "feedback": null,
+   "llm_override": null,
+   "producing_llm": null,
+   "time_in_call_secs": 136,
+   "conversation_turn_metrics": null,
+   "rag_retrieval_info": null,
+   "llm_usage": null,
+   "interrupted": false,
+   "ignored_as_backchannel": false,
+   "platform_event": null,
+   "original_message": null,
+   "reasoning": [],
+   "source_medium": null,
+   "source_event_id": 791,
+   "used_static_kb_document_ids": [],
+   "analysis": null,
+   "id": null,
+   "compaction": null,
+   "triggered_guardrails": [],
+   "file_input": null,
+   "file_inputs": [],
+   "contextual_update_info": null,
+   "config_snapshot_id": null,
+   "reasoned": false
+  }
+ ],
+ "tag_ids": [],
+ "realtime_config_snapshots": null,
+ "orchestrator": "conversational",
+ "otlp_traces": null
+}

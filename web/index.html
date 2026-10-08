@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bright Smile Dental · Front Desk</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230A7F78'/%3E%3Cpath d='M11 7c-3 0-5 2.4-5 5.6 0 3.9 2 5.9 2.9 10.2.4 2.2 1.1 3.7 2.4 3.7 1.9 0 1.8-5.7 3.7-5.7h.9c1.9 0 1.8 5.7 3.7 5.7 1.3 0 2-1.5 2.4-3.7.9-4.3 2.9-6.3 2.9-10.2C25 9.4 23 7 20 7c-1.9 0-2.8 1-4 1s-2.1-1-4-1z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-tooth" viewBox="0 0 24 24"><path d="M8 3C5.6 3 4 4.9 4 7.5c0 3.2 1.6 4.8 2.3 8.3.3 1.8.9 3.2 2 3.2 1.6 0 1.5-4.7 3.1-4.7h1.2c1.6 0 1.5 4.7 3.1 4.7 1.1 0 1.7-1.4 2-3.2.7-3.5 2.3-5.1 2.3-8.3C20 4.9 18.4 3 16 3c-1.6 0-2.4.8-4 .8S9.6 3 8 3z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.2-5.5 6.5-5.5s5.9 1.9 6.5 5.5M16 4.8a3.5 3.5 0 0 1 0 6.4M18 14.7c2 .7 3.2 2.5 3.5 5.3"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.6-3.1 8.2-7.5 9.5-4.4-1.3-7.5-4.9-7.5-9.5V6L12 3z"/><path d="M8.8 12.2l2.2 2.2 4.4-4.6"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16M8 16v-4M12 16V8M16 16v-6"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2.8v2.4M12 18.8v2.4M21.2 12h-2.4M5.2 12H2.8M18.5 5.5l-1.7 1.7M7.2 16.8l-1.7 1.7M18.5 18.5l-1.7-1.7M7.2 7.2L5.5 5.5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/><circle cx="12.5" cy="15" r="2.4"/><path d="M14.3 16.8l1.7 1.7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4M9 15l2 2 4-4"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/><path d="M15 3.5l-2.5 2.5L15 8.5M12.5 6H21"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9L12 2.5zM18.5 15l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9.9-2.6z"/></symbol>
+  </svg>
+
+  <aside class="rail">
+    <div class="rail-logo"><svg><use href="#i-tooth"/></svg></div>
+    <nav>
+      <a class="active" title="Schedule"><svg><use href="#i-cal"/></svg></a>
+      <a title="Calls"><svg><use href="#i-phone"/></svg></a>
+      <a title="Patients"><svg><use href="#i-users"/></svg></a>
+      <a title="Insurance"><svg><use href="#i-shield"/></svg></a>
+      <a title="Reports"><svg><use href="#i-chart"/></svg></a>
+    </nav>
+    <div class="rail-foot">
+      <a title="Settings"><svg><use href="#i-gear"/></svg></a>
+      <div class="me">BS</div>
+    </div>
+  </aside>
+
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1>Front desk</h1>
+        <div class="sub">Bright Smile Dental · 2400 S Lamar Blvd, Austin</div>
+      </div>
+      <div class="top-right">
+        <span class="clock" id="clock"></span>
+        <span class="chip sync"><svg><use href="#i-cal"/></svg><span id="cal-name">Calendar</span></span>
+        <span class="chip duty"><span class="pulse"></span>Riley is answering calls</span>
+      </div>
+    </header>
+
+    <section class="kpis" id="kpis">
+      <div class="kpi"><div class="kpi-label">Calls answered today</div><div class="kpi-val" data-k="calls">–</div><div class="kpi-sub" data-k="calls-sub">&nbsp;</div></div>
+      <div class="kpi"><div class="kpi-label">Booked by Riley today</div><div class="kpi-val" data-k="booked">–</div><div class="kpi-sub" data-k="booked-sub">&nbsp;</div></div>
+      <div class="kpi"><div class="kpi-label">Production booked today</div><div class="kpi-val" data-k="prod">–</div><div class="kpi-sub">office fees, Riley's bookings</div></div>
+      <div class="kpi"><div class="kpi-label">Insurance checks today</div><div class="kpi-val" data-k="ins">–</div><div class="kpi-sub" data-k="ins-sub">&nbsp;</div></div>
+      <div class="kpi"><div class="kpi-label">Chair utilization · next 5 days</div><div class="kpi-val" data-k="util">–</div><div class="meter"><i data-k="util-bar"></i></div><div class="kpi-sub" data-k="util-sub">&nbsp;</div></div>
+    </section>
+
+    <main class="main">
+      <section class="panel live">
+        <div class="panel-head"><h2>Live call</h2><span class="timer" id="timer">00:00</span></div>
+        <div class="riley">
+          <div class="avatar" id="avatar">
+            <div class="bars" id="bars"></div>
+          </div>
+          <div>
+            <div class="riley-name">Riley <span class="tag">AI receptionist</span></div>
+            <div class="riley-sub">English · Español · answers 24/7</div>
+          </div>
+        </div>
+        <button class="call-btn" id="call-btn"><svg><use href="#i-phone"/></svg><span id="call-label">Start a call with Riley</span></button>
+        <div class="status" id="status">Ready for the next caller</div>
+        <div class="transcript" id="transcript"><div class="placeholder">Riley's conversation streams here, word for word.</div></div>
+        <div class="intake" id="intake">
+          <div class="intake-head"><span>Patient intake</span><span class="intake-state" id="intake-state">Waiting for call</span></div>
+          <dl>
+            <div data-f="patient"><dt>Patient</dt><dd>—</dd></div>
+            <div data-f="phone"><dt>Phone</dt><dd>—</dd></div>
+            <div data-f="insurance" class="wide"><dt>Insurance</dt><dd>—</dd></div>
+            <div data-f="visit"><dt>Visit</dt><dd>—</dd></div>
+            <div data-f="conf"><dt>Confirmation</dt><dd>—</dd></div>
+            <div data-f="appt" class="wide"><dt>Appointment</dt><dd>—</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="panel schedule">
+        <div class="panel-head">
+          <h2>Schedule</h2>
+          <div class="legend">
+            <span><i class="c-preventive"></i>Preventive</span>
+            <span><i class="c-restorative"></i>Restorative</span>
+            <span><i class="c-emergency"></i>Emergency</span>
+            <span><i class="c-cosmetic"></i>Cosmetic</span>
+            <span class="lg-riley"><svg><use href="#i-spark"/></svg>Booked by Riley</span>
+          </div>
+        </div>
+        <div class="days" id="days"></div>
+        <div class="ops-head">
+          <div></div>
+          <div class="op"><div class="op-badge c-preventive-bg">OP 1</div><div><b>Hygiene</b><span>Lauren Kim, RDH</span></div></div>
+          <div class="op"><div class="op-badge c-restorative-bg">OP 2</div><div><b>Doctor</b><span>Dr. Maya Patel, DDS</span></div></div>
+        </div>
+        <div class="grid-wrap"><div class="grid" id="grid"></div></div>
+      </section>
+
+      <section class="panel side">
+        <div class="panel-head"><h2>Riley's actions</h2><span class="muted" id="act-count"></span></div>
+        <div class="feed" id="feed"><div class="placeholder">Every lookup and booking Riley makes appears here as it happens.</div></div>
+        <div class="panel-head mt"><h2>Call review</h2><span class="muted" id="review-state"></span></div>
+        <div class="review" id="review"><div class="placeholder">When a call ends, ElevenLabs scores it against the clinic's rules and the review lands here.</div></div>
+        <div class="panel-head mt"><h2>Callback queue</h2></div>
+        <div id="callbacks"><div class="placeholder">No callbacks waiting.</div></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast"><svg><use href="#i-spark"/></svg><div><b id="toast-title"></b><span id="toast-body"></span></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@elevenlabs/client@1.24.0/dist/lib.iife.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

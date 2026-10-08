@@ -1,0 +1,119 @@
+{
+ "conversation_id": "conv_3601m4ep1g38e4sbfsk4ptq37e37",
+ "t0_epoch": 1791494241.8977652,
+ "turns": [
+  {
+   "role": "agent",
+   "text": "Thanks for calling Bright Smile Dental, this is Riley. How can I help you today?",
+   "t": 1.05
+  },
+  {
+   "role": "user",
+   "line": "open",
+   "text": "Hi! Do you guys take Delta Dental?",
+   "t": 6.45,
+   "dur": 2.09
+  },
+  {
+   "role": "agent",
+   "text": "Yes, we are in network for Delta Dental PPO and Delta Dental Premier. However, if your card says DeltaCare USA, which is their HMO, we are not in that network. Are you looking to book an appointment with us?",
+   "t": 12.23
+  },
+  {
+   "role": "user",
+   "line": "book",
+   "text": "Oh great, it's the PPO. Could I book a cleaning next week? Mornings are best for me.",
+   "t": 27.4,
+   "dur": 4.41
+  },
+  {
+   "role": "agent",
+   "text": "Just to make sure, have you been to see us before?",
+   "t": 34.92
+  },
+  {
+   "role": "user",
+   "line": "existing",
+   "text": "Yes, I've been there before.",
+   "t": 38.96,
+   "dur": 1.35
+  },
+  {
+   "role": "agent",
+   "text": "One moment. We don't have any morning openings next week, but the following week we have Tuesday, October 20th at 9:00 AM, or Wednesday, October 21st at 8:00 AM. Would either of those work for you?",
+   "t": 45.12
+  },
+  {
+   "role": "user",
+   "line": "pick",
+   "text": "The first one works for me.",
+   "t": 58.23,
+   "dur": 1.25
+  },
+  {
+   "role": "agent",
+   "text": "Great, Tuesday, October 20th at 9:00 AM. May I have your first and last name, please?",
+   "t": 68.25
+  },
+  {
+   "role": "user",
+   "line": "name",
+   "text": "It's Jordan Miles.",
+   "t": 69.23,
+   "dur": 1.07
+  },
+  {
+   "role": "agent",
+   "text": "Thanks, Jordan. And what is the best phone number to reach you?",
+   "t": 76.23
+  },
+  {
+   "role": "user",
+   "line": "phone",
+   "text": "Five one two, five five five, zero one nine nine.",
+   "t": 77.28,
+   "dur": 2.88
+  },
+  {
+   "role": "agent",
+   "text": "Got it. I have that as five one two, five five five, zero one nine nine. Is that correct?",
+   "t": 90.12
+  },
+  {
+   "role": "user",
+   "line": "right",
+   "text": "Yes, that's right.",
+   "t": 91.13,
+   "dur": 1.07
+  },
+  {
+   "role": "agent",
+   "text": "Perfect. So, I have you down for a cleaning and checkup on Tuesday, October 20th at 9:00 AM under Jordan Miles, using your Delta Dental PPO insurance. Does that all sound good?",
+   "t": 94.57
+  },
+  {
+   "role": "user",
+   "line": "yes",
+   "text": "Yes, please.",
+   "t": 107.84,
+   "dur": 0.88
+  },
+  {
+   "role": "agent",
+   "text": "You are all set! Your confirmation code is nine, three, six, three. Since you have been here before, please arrive about five minutes early. Is there anything else I can help you with today?",
+   "t": 113.16
+  },
+  {
+   "role": "user",
+   "line": "bye",
+   "text": "No, that's everything. Thanks so much!",
+   "t": 125.52,
+   "dur": 1.81
+  },
+  {
+   "role": "agent",
+   "text": "You're very welcome, Jordan! We look forward to seeing you on October 20th. Have a wonderful day!",
+   "t": 136.49
+  }
+ ]
+}
