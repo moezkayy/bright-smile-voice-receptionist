@@ -6,7 +6,9 @@ Patients call, ask about their insurance and book a cleaning by voice. The booki
 
 ![Front desk dashboard right after a real call](media/dashboard-real-run.png)
 
-▶️ **[Watch the 84-second video](media/riley-demo.mp4)**: a real call to the live agent, cut into a short walkthrough.
+[![Watch the 84-second video on YouTube](media/share/video-thumbnail.png)](https://youtu.be/xk-ShY5V1eM)
+
+▶️ **[Watch the 84-second video](https://youtu.be/xk-ShY5V1eM)**: a real call to the live agent, cut into a short walkthrough.
 
 ## What it does
 
